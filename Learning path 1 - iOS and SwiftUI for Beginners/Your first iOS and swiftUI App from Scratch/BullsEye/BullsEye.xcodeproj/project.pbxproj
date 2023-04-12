@@ -11,6 +11,7 @@
 		CE87F9CB29E3F7780039E909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87F9CA29E3F7780039E909 /* ContentView.swift */; };
 		CE87F9CD29E3F77B0039E909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE87F9CC29E3F77B0039E909 /* Assets.xcassets */; };
 		CE87F9D029E3F77B0039E909 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE87F9CF29E3F77B0039E909 /* Preview Assets.xcassets */; };
+		CE87F9DA29E592670039E909 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87F9D929E592670039E909 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CE87F9CA29E3F7780039E909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE87F9CC29E3F77B0039E909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE87F9CF29E3F77B0039E909 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE87F9D929E592670039E909 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +53,9 @@
 		CE87F9C729E3F7780039E909 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
-				CE87F9C829E3F7780039E909 /* BullsEyeApp.swift */,
-				CE87F9CA29E3F7780039E909 /* ContentView.swift */,
-				CE87F9CC29E3F77B0039E909 /* Assets.xcassets */,
+				CE87F9D829E57E3B0039E909 /* App */,
+				CE87F9D729E57E2A0039E909 /* Views */,
+				CE87F9D629E57E1F0039E909 /* Models */,
 				CE87F9CE29E3F77B0039E909 /* Preview Content */,
 			);
 			path = BullsEye;
@@ -65,6 +67,31 @@
 				CE87F9CF29E3F77B0039E909 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE87F9D629E57E1F0039E909 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE87F9D929E592670039E909 /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE87F9D729E57E2A0039E909 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE87F9CA29E3F7780039E909 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE87F9D829E57E3B0039E909 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE87F9C829E3F7780039E909 /* BullsEyeApp.swift */,
+				CE87F9CC29E3F77B0039E909 /* Assets.xcassets */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE87F9CB29E3F7780039E909 /* ContentView.swift in Sources */,
+				CE87F9DA29E592670039E909 /* Game.swift in Sources */,
 				CE87F9C929E3F7780039E909 /* BullsEyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
