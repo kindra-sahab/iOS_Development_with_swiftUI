@@ -60,7 +60,7 @@ struct ContentView: View {
       }
       Button("Hit Me") {
 //        print("Hello SwiftUI")
-        isAlertVisible.toggle()
+        isAlertVisible = true
       }
       .alert("Alert !!",
              isPresented: $isAlertVisible,
